@@ -1,0 +1,8 @@
+<?xml version='1.0'?>
+<signatures version='1.0'>
+<class name='CYAlert'>
+<method selector='show' class_method='true'>
+<retval type='v' declared_type='void'/>
+</method>
+</class>
+</signatures>
