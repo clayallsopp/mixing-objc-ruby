@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F824BE6C15E6265F00583BA1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F824BE6B15E6265F00583BA1 /* UIKit.framework */; };
+		F824BE6E15E6265F00583BA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F824BE6D15E6265F00583BA1 /* Foundation.framework */; };
+		F824BE7015E6265F00583BA1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F824BE6F15E6265F00583BA1 /* CoreGraphics.framework */; };
+		F824BE7615E6265F00583BA1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F824BE7415E6265F00583BA1 /* InfoPlist.strings */; };
+		F824BE7815E6265F00583BA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F824BE7715E6265F00583BA1 /* main.m */; };
+		F824BE7C15E6265F00583BA1 /* CYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F824BE7B15E6265F00583BA1 /* CYAppDelegate.m */; };
+		F824BE8615E626EF00583BA1 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F824BE8415E626EF00583BA1 /* libc++.dylib */; };
+		F824BE8715E626EF00583BA1 /* libc++abi.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F824BE8515E626EF00583BA1 /* libc++abi.dylib */; };
+		F824BE8915E626F600583BA1 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F824BE8815E626F600583BA1 /* libstdc++.dylib */; };
+		F824BE8D15E62BD400583BA1 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F824BE8C15E62BD400583BA1 /* libicucore.dylib */; };
+		F8BA5D5415E646B80095B0F0 /* MixingExample-universal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F8BA5D5315E646B80095B0F0 /* MixingExample-universal.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F824BE6715E6265F00583BA1 /* Mixing Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mixing Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F824BE6B15E6265F00583BA1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F824BE6D15E6265F00583BA1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F824BE6F15E6265F00583BA1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F824BE7315E6265F00583BA1 /* Mixing Test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mixing Test-Info.plist"; sourceTree = "<group>"; };
+		F824BE7515E6265F00583BA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F824BE7715E6265F00583BA1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F824BE7915E6265F00583BA1 /* Mixing Test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mixing Test-Prefix.pch"; sourceTree = "<group>"; };
+		F824BE7A15E6265F00583BA1 /* CYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYAppDelegate.h; sourceTree = "<group>"; };
+		F824BE7B15E6265F00583BA1 /* CYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYAppDelegate.m; sourceTree = "<group>"; };
+		F824BE8415E626EF00583BA1 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		F824BE8515E626EF00583BA1 /* libc++abi.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++abi.dylib"; path = "usr/lib/libc++abi.dylib"; sourceTree = SDKROOT; };
+		F824BE8815E626F600583BA1 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		F824BE8C15E62BD400583BA1 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		F824BE8E15E62E7C00583BA1 /* CYAlertRuby.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYAlertRuby.h; sourceTree = "<group>"; };
+		F8BA5D5315E646B80095B0F0 /* MixingExample-universal.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "MixingExample-universal.a"; path = "../../ruby/build/MixingExample-universal.a"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F824BE6415E6265F00583BA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F824BE8D15E62BD400583BA1 /* libicucore.dylib in Frameworks */,
+				F824BE8915E626F600583BA1 /* libstdc++.dylib in Frameworks */,
+				F824BE8615E626EF00583BA1 /* libc++.dylib in Frameworks */,
+				F824BE8715E626EF00583BA1 /* libc++abi.dylib in Frameworks */,
+				F824BE6C15E6265F00583BA1 /* UIKit.framework in Frameworks */,
+				F824BE6E15E6265F00583BA1 /* Foundation.framework in Frameworks */,
+				F824BE7015E6265F00583BA1 /* CoreGraphics.framework in Frameworks */,
+				F8BA5D5415E646B80095B0F0 /* MixingExample-universal.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F824BE5C15E6265F00583BA1 = {
+			isa = PBXGroup;
+			children = (
+				F824BE8C15E62BD400583BA1 /* libicucore.dylib */,
+				F824BE8815E626F600583BA1 /* libstdc++.dylib */,
+				F824BE8415E626EF00583BA1 /* libc++.dylib */,
+				F824BE8515E626EF00583BA1 /* libc++abi.dylib */,
+				F824BE7115E6265F00583BA1 /* Mixing Test */,
+				F824BE6A15E6265F00583BA1 /* Frameworks */,
+				F824BE6815E6265F00583BA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F824BE6815E6265F00583BA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F824BE6715E6265F00583BA1 /* Mixing Test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F824BE6A15E6265F00583BA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F824BE6B15E6265F00583BA1 /* UIKit.framework */,
+				F824BE6D15E6265F00583BA1 /* Foundation.framework */,
+				F824BE6F15E6265F00583BA1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F824BE7115E6265F00583BA1 /* Mixing Test */ = {
+			isa = PBXGroup;
+			children = (
+				F824BE7A15E6265F00583BA1 /* CYAppDelegate.h */,
+				F824BE7B15E6265F00583BA1 /* CYAppDelegate.m */,
+				F824BE8E15E62E7C00583BA1 /* CYAlertRuby.h */,
+				F824BE7215E6265F00583BA1 /* Supporting Files */,
+			);
+			path = "Mixing Test";
+			sourceTree = "<group>";
+		};
+		F824BE7215E6265F00583BA1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8BA5D5315E646B80095B0F0 /* MixingExample-universal.a */,
+				F824BE7315E6265F00583BA1 /* Mixing Test-Info.plist */,
+				F824BE7415E6265F00583BA1 /* InfoPlist.strings */,
+				F824BE7715E6265F00583BA1 /* main.m */,
+				F824BE7915E6265F00583BA1 /* Mixing Test-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F824BE6615E6265F00583BA1 /* Mixing Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F824BE7F15E6265F00583BA1 /* Build configuration list for PBXNativeTarget "Mixing Test" */;
+			buildPhases = (
+				F824BE6315E6265F00583BA1 /* Sources */,
+				F824BE6415E6265F00583BA1 /* Frameworks */,
+				F824BE6515E6265F00583BA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mixing Test";
+			productName = "Mixing Test";
+			productReference = F824BE6715E6265F00583BA1 /* Mixing Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F824BE5E15E6265F00583BA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CY;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Clay Allsopp";
+			};
+			buildConfigurationList = F824BE6115E6265F00583BA1 /* Build configuration list for PBXProject "Mixing Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F824BE5C15E6265F00583BA1;
+			productRefGroup = F824BE6815E6265F00583BA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F824BE6615E6265F00583BA1 /* Mixing Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F824BE6515E6265F00583BA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F824BE7615E6265F00583BA1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F824BE6315E6265F00583BA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F824BE7815E6265F00583BA1 /* main.m in Sources */,
+				F824BE7C15E6265F00583BA1 /* CYAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F824BE7415E6265F00583BA1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F824BE7515E6265F00583BA1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F824BE7D15E6265F00583BA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F824BE7E15E6265F00583BA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F824BE8015E6265F00583BA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mixing Test/Mixing Test-Prefix.pch";
+				INFOPLIST_FILE = "Mixing Test/Mixing Test-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Mixing Test\"",
+					"\"$(SRCROOT)/../../Motion/MixingExample/build\"",
+					"\"$(SRCROOT)/../ruby/build\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F824BE8115E6265F00583BA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mixing Test/Mixing Test-Prefix.pch";
+				INFOPLIST_FILE = "Mixing Test/Mixing Test-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Mixing Test\"",
+					"\"$(SRCROOT)/../../Motion/MixingExample/build\"",
+					"\"$(SRCROOT)/../ruby/build\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F824BE6115E6265F00583BA1 /* Build configuration list for PBXProject "Mixing Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F824BE7D15E6265F00583BA1 /* Debug */,
+				F824BE7E15E6265F00583BA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F824BE7F15E6265F00583BA1 /* Build configuration list for PBXNativeTarget "Mixing Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F824BE8015E6265F00583BA1 /* Debug */,
+				F824BE8115E6265F00583BA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F824BE5E15E6265F00583BA1 /* Project object */;
+}
